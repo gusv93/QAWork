@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9070" started-at="2017-08-17T11:33:38Z" finished-at="2017-08-17T11:33:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9070" started-at="2017-08-17T11:33:38Z" finished-at="2017-08-17T11:33:47Z">
+      <class name="UserRegistrarion.RegistraionUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UserRegistrarion.RegistraionUser@68c4039c]" name="setUp" is-config="true" duration-ms="6485" started-at="2017-08-17T14:33:38Z" finished-at="2017-08-17T14:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DoRegistrationPositiv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UserRegistrarion.RegistraionUser@68c4039c]" name="DoRegistrationPositiv" duration-ms="1600" started-at="2017-08-17T14:33:44Z" data-provider="testData" finished-at="2017-08-17T14:33:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qweqwe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testemail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoRegistrationPositiv -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UserRegistrarion.RegistraionUser@68c4039c]" name="tearDown" is-config="true" duration-ms="951" started-at="2017-08-17T14:33:46Z" finished-at="2017-08-17T14:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UserRegistrarion.RegistraionUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
